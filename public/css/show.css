@@ -1,0 +1,9 @@
+.flex-card{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+    padding:20px;
+}
+p{
+    text-transform: uppercase;
+}

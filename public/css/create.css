@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header h2{
+    text-transform: uppercase;
+    margin-left: 41%;
+    font-size: 42px;
+}
+.alert-danger{
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 10px;
+    margin: 2% 10%;
+}
+.card{
+    margin: 2% 20%;
+    font-size: 30px;
+    padding: 50px;
+    box-shadow:6px 15px 20px rgb(109, 106, 106);
+}
+.form-group{
+   padding: 10px;
+   margin: 10px;
+}
+.form-group input,textarea{
+    height: 50px;
+    width: 50vw;
+    font-size: 20px;
+}
+.form-group1{
+    border: 2px solid #000;
+    padding: 6px;
+    width: 51vw;
+    margin-left: 15px;
+}
+.form-group button{
+    margin: 8px;
+    padding: 10px;
+    background-color: #29de92;
+    color: #ffffff;
+    border: none;
+    font-size: 20px;
+    width: 50vw;
+
+}
+.form-group button:hover{
+    background-color: #29de9346;
+    color: #000;
+}

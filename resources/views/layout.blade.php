@@ -17,11 +17,16 @@
                 <div class="pull-left">
                     <h2>STUDENT MANAGEMENT SYSTEM</h2>
                 </div>
+                @if (!Auth::user())
+                <div class="pull-right">
+                    <a class="btn-top1" href="{{route('loin')}}"> Login</a>
+                </div>   
+                @endif
                 <div class="pull-right">
                     <a class="btn-top" href="{{ route('create') }}"> Create New Student</a>
                 </div>
                 <div class="pull-right">
-                    <a class="btn-top1" href="{{ route('index') }}"> Back</a>
+                    <a class="btn-top1" href="{{ route('index') }}"> Logout</a>
                 </div>
         </div>
     </header>

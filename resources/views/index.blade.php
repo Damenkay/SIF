@@ -21,7 +21,6 @@
     </tr>
     @foreach ($students as $student)
     <tr>
-        <td>{{ ++id }}</td>
         <td>{{ $student->id}}</td>
         <td>{{ $student->firstname}}</td>
         <td>{{ $student->lastname}}</td>
